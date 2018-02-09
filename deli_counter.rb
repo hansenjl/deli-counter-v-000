@@ -12,7 +12,7 @@ def line(deli)
 end
 
 def take_a_number(deli,name)
-  puts "Welcome, #{name}. You are number #{name.count+1} in line."
+  puts "Welcome, #{name}. You are number #{deli.count+1} in line."
   deli << name
 end
 
